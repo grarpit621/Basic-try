@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class homePageController {
     
     @GetMapping("/")
-    public String dashboard() {
+    public String dashboard() { // localhost:8080/
         return "hi";
     }   
 
