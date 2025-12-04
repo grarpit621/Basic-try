@@ -7,7 +7,7 @@ public class homePageController {
     
     @GetMapping("/")
     public String dashboard() {
-        return "hi";
+        return "Welcome to Metro Backend Service";
     }   
 
 }
