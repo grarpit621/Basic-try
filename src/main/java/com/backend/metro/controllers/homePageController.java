@@ -10,4 +10,8 @@ public class homePageController {
         return "hi";
     }   
 
+    @GetMapping("/home")
+    public String home() { // localhost:8080/home
+        return "home";
+    }
 }
